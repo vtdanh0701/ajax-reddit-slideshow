@@ -4,8 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello Front-End</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div id="container">
+    
+    <div id="slideshowcontainer">
+      <div id="imgcontainer">
+        <img src="img/test.jpg" alt="">
+
+        <button type="button" id="clickplay"> &#9658;</button>
+        <button type="button" id="reset" onclick="reset()">Search Again</button>
+      </div>
+      
+    </div>
+    <div id="inputcontainer">
+      <input type="text" placeholder="Search" id="input">
+      <p></p>
+      <button type="button" onclick="test()" >&#x1F4F7;</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
