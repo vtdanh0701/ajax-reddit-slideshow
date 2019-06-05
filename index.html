@@ -11,9 +11,11 @@
     
     <div id="slideshowcontainer">
       <div id="imgcontainer">
-        <img src="img/test.jpg" alt="">
+        <div id="imgbox">
+          <img id="img" alt="">
+        </div>
 
-        <button type="button" id="clickplay"> &#9658;</button>
+        <button type="button" id="clickplay" onclick="pause()">Pause</button>
         <button type="button" id="reset" onclick="reset()">Search Again</button>
       </div>
       
@@ -21,7 +23,7 @@
     <div id="inputcontainer">
       <input type="text" placeholder="Search" id="input">
       <p></p>
-      <button type="button" onclick="test()" >&#x1F4F7;</button>
+      <button type="button" onclick="clickButton()" >&#x1F4F7;</button>
     </div>
   </div>
   <script src="js/script.js"></script>
