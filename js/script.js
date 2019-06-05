@@ -15,6 +15,7 @@ function play(){
 function clickButton(){
     play();
     slideShow();
+    document.getElementById("clickplay").textContent = "Pause";
 }
 function reset(){
     hide.style.display = "block";
